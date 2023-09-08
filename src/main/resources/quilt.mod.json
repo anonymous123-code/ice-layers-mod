@@ -19,7 +19,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.anonymous123_code.ice_layers.IceLayers"
+			"init": "io.github.anonymous123_code.ice_layers.IceLayers",
+			"client_init": "io.github.anonymous123_code.ice_layers.IceLayersClient"
 		},
 		"depends": [
 			{
