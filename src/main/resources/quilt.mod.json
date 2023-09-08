@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.anonymous123_code",
+		"id": "ice_layers",
+		"version": "${version}",
+		"metadata": {
+			"name": "Mod Name",
+			"description": "A short description of your mod.",
+			"contributors": {
+				"anonymous123-code": "Owner"
+			},
+			"contact": {
+				"homepage": "https://anonymous123-code.github.io",
+				"issues": "https://github.com/anonymous123-code/ice-layers-mod/issues",
+				"sources": "https://github.com/anonymous123-code/ice-layers-mod/"
+			},
+			"icon": "assets/ice_layers/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "io.github.anonymous123_code.ice_layers.IceLayers"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			}
+		]
+	},
+	"mixin": "ice_layers.mixins.json"
+}
